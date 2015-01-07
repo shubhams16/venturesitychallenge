@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Crm.master.cs" Inherits="crm.Crm" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<link rel="stylesheet" href="css/list.css" type="text/css" media="all" />
+    <title>Crm</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+        <div id="header">
+        <div id="header_logo"><a href="Hospital.aspx"><h1>Hospital  </h1></a>
+        </div>
+        <div id="header_nav">
+            <ul>
+                <li class='active'><a href="about.aspx"><span>About</span></a>
+                </li>
+                <li><a href="contact.aspx"><span>CONTACT</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+        
+        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+
+
+    </form>
+</body>
+</html>

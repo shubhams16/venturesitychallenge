@@ -1,0 +1,217 @@
+﻿* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* import css*/
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('http://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800');
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700,900');
+@import url('http://fonts.googleapis.com/css?family=Indie+Flower');
+
+/* complete css*/
+body{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    background-color: rgb(236, 240, 241);
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    color: #2d4050;
+    margin: 0;
+}
+#header{
+    background-color: #1c1c1c;
+    width: 100%;
+    padding: 10px;
+    float: left;
+}
+
+#header_logo{
+    padding-left:50px;
+    display: block;
+    float: left;
+}
+#header_logo a{
+    color: white;
+    text-decoration: none;
+}
+#header_logo a h1{ 
+margin: 0;
+}
+
+#header_nav{
+    width: auto;
+    float: right;
+    padding-top: 0px;
+    padding-right: 50px;
+}
+
+#header_nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    display: block;
+}
+
+#header_nav ul li{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+#header_nav ul li a{
+    text-decoration: none;
+    display: block;
+    color: rgb(211, 84, 0);
+    font-size: 14px;
+    padding: 10px 10px;
+    position: relative;
+}
+
+#content{
+    width: 100%;
+    float: left;
+    background-color: rgb(51, 110, 123);
+    background: url(../image/2.jpg) center;
+    height: auto;
+    padding-bottom: 150px;
+}
+#content h1{
+    color:white;
+    text-align: center;
+    font-size: 64px;
+    
+    padding-bottom: 25px;
+}
+
+#block1, #block2{
+    text-align:center;
+    margin: 0 0 10px;
+    padding: 0px;
+    border: none;
+    margin-bottom: 110px;
+    font-weight: 800;
+}
+
+#block1 a,#block2 a{
+    text-decoration: none;
+    color: white;
+    background: #336E7B;
+    padding: 20px 20px;
+    line-height: 32px;
+    font-size: 30px;
+    
+}
+
+#block1 a:hover,#block2 a:hover{
+    background: #262c2d;
+}
+
+#content2{
+    height:100px;
+    width: 100%;
+    background:black;
+    float: left;
+}
+/*show*/
+
+
+#dash_content{
+    width: 100%;
+    float: left;
+   
+    
+    height: 100%;
+}
+#dash_content h1{
+    color:white;
+    text-align: center;
+    font-size: 54px;
+    
+    padding-bottom: 0px;
+}
+
+#dash_content p{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#dash_content h3{
+    color:white;
+    font-size: 35px;
+    text-align: center;
+    
+    
+}
+
+#upload {
+    p
+    
+}
+
+#upload {
+    padding: 0px;
+    width: 600px;
+    margin-left: 350px;
+    text-align: left;
+}
+
+
+.dash_radio{
+    border: 1px solid #ececec;
+    padding: 0px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+label{
+    margin-left: 5px;
+}
+
+

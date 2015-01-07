@@ -1,0 +1,5 @@
+C:\Users\SHUBHAM\Documents\Visual Studio 2010\Projects\crm\crm\bin\crm.dll
+C:\Users\SHUBHAM\Documents\Visual Studio 2010\Projects\crm\crm\bin\crm.pdb
+C:\Users\SHUBHAM\Documents\Visual Studio 2010\Projects\crm\crm\obj\Debug\crm.dll
+C:\Users\SHUBHAM\Documents\Visual Studio 2010\Projects\crm\crm\obj\Debug\crm.pdb
+C:\Users\SHUBHAM\documents\visual studio 2010\Projects\crm\crm\obj\Debug\crm.csprojResolveAssemblyReference.cache
